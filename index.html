@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shakti | Portfolio</title>
+  <style>
+    :root {
+      --primary: #6C63FF;
+      --secondary: #FF6584;
+      --background: #f9f9f9;
+      --text: #333;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background: var(--background);
+      color: var(--text);
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: var(--white);
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background: var(--primary);
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: var(--white);
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background: var(--secondary);
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    .project {
+      background: var(--white);
+      border-left: 5px solid var(--primary);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+    }
+
+    .project h3 {
+      color: var(--secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    .project a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: var(--primary);
+      color: var(--white);
+      margin-top: 2rem;
+    }
+
+    .contact-box {
+      background: var(--white);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    .contact-box p {
+      font-size: 1.1rem;
+      color: var(--text);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        padding: 0.7rem;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Shakti</h1>
+    <p>BCA 3rd Year Student | Web Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm <strong>Shakti</strong>, a Bachelor of Computer Applications (BCA) student currently in my 3rd year at Poornima University. I enjoy creating websites, learning new technologies, and building clean, responsive user experiences. I'm always exploring new ideas and pushing my limits in the tech world.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    
+    <div class="project">
+      <h3>Project One</h3>
+      <p>This is a placeholder for your first project. Describe what it does, the technologies you used, and what problem it solves.</p>
+      <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>Project Two</h3>
+      <p>This is a placeholder for your second project. You can describe features, design choices, or challenges you overcame.</p>
+      <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-box">
+      <p>📧 <strong>Email me:</strong> <br> <a href="mailto:2023bcashakti14987@poornima.edu.in">2023bcashakti14987@poornima.edu.in</a></p>
+      <p>📍 No phone number included</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Shakti. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
